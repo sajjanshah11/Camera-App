@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.gallery-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.media-card{
+    height: 18rem;
+    width: 18rem;
+    border: 1px solid;
+    margin-top: 1rem;
+}
+
+.actual-media{
+    width: 100%;
+    height: 80%;
+    border: 1px solid;
+}
+
+.media-button{
+    width: 100%;
+    height: 20%;
+}
+
+.download{
+    height:50%;
+    width: 100%;
+    color: white;
+    background-color: green;
+    font-size: large;
+    border:none;
+}
+
+.delete{
+    height: 50%;
+    width: 100%;
+    color: white;
+    background-color: red;
+    font-size: large;
+    border: none;
+}
+
+.actual-media img , .actual-media video{
+    height: 100%;
+    width: 100%;
+}
+
